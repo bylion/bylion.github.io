@@ -11,6 +11,20 @@ The goal: I want the cash flow could produce value for me like the program. Also
 some idea may from the course
 
 
+type of investment
+
+ - stock
+ 	- index fund
+ - bond
+ - commodities
+ - real estate
+ - life insurance
+ 	- only term life insurance
+    	- at marrirage or child
+        
+ 
+
+
 
 
 
