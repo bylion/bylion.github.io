@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## How to present architecture refactoring
 
@@ -48,6 +48,3 @@ published: false
 be proactive in assessing the architecture vitality
 
 smaller refactoring efforts are easier to sell than bigger ones
-
-
- 
