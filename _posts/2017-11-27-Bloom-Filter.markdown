@@ -12,7 +12,9 @@ what is diff compareing with HashSet?
 
  - HashSet will giev you 100% answer, not maybe
 
- - TBD
+ - save space, hashset contain the object itself
+
+ - java implementation com.google.common.hash.BloomFilter
 
 
 
