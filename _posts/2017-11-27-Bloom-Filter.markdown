@@ -10,7 +10,7 @@ Maybe Yes, absolute No
 
 what is diff compareing with HashSet?
 
- - HashSet will giev you 100% answer, not maybe
+ - HashSet will give you 100% answer, not maybe
 
  - save space, hashset contain the object itself
 
