@@ -2,10 +2,16 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Bylion aka by-lion. You can also found me on
+Living an Inspired Life
 
-[LinkedIn](www.linkedin.com/in/byzhu)
+
+Found me on [LinkedIn](www.linkedin.com/in/byzhu)
 
 TBD
+
+ - add comments
+ - SEO
+ -
