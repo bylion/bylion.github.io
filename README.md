@@ -18,3 +18,9 @@
 ### To edit online
 
  - I found a fantasy online tool! [prose](http://prose.io/)  easy to use, and prefect for simple edition.
+
+### google_analytics
+ - https://analytics.google.com/
+
+### social
+ - https://disqus.com/admin/
