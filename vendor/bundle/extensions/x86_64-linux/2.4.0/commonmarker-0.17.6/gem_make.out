@@ -1,0 +1,227 @@
+current directory: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker
+/usr/local/bin/ruby -r ./siteconf20171129-25-5ojd7n.rb extconf.rb
+checking for cmake... yes
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_FLAG_ADDRESS_SANITIZER
+-- Performing Test HAVE_FLAG_ADDRESS_SANITIZER - Failed
+-- Performing Test HAVE_FLAG_SANITIZE_ADDRESS
+-- Performing Test HAVE_FLAG_SANITIZE_ADDRESS - Failed
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Performing Test HAVE___BUILTIN_EXPECT
+-- Performing Test HAVE___BUILTIN_EXPECT - Success
+-- Performing Test HAVE___ATTRIBUTE__
+-- Performing Test HAVE___ATTRIBUTE__ - Success
+-- Could NOT find PythonInterp (missing:  PYTHON_EXECUTABLE) (Required is at least version "3")
+
+*** A python 3 interpreter is required to run the spec tests.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build
+/usr/bin/cmake -H/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark -B/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build --check-build-system CMakeFiles/Makefile.cmake 0
+make -f CMakeFiles/Makefile2 libcmark-gfm_static
+make[1]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+/usr/bin/cmake -H/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark -B/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles 28
+make -f CMakeFiles/Makefile2 src/CMakeFiles/libcmark-gfm_static.dir/all
+make[2]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+make -f src/CMakeFiles/libcmark-gfm_static.dir/build.make src/CMakeFiles/libcmark-gfm_static.dir/depend
+make[3]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src/CMakeFiles/libcmark-gfm_static.dir/DependInfo.cmake --color=
+Dependee "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src/CMakeFiles/libcmark-gfm_static.dir/DependInfo.cmake" is newer than depender "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src/CMakeFiles/libcmark-gfm_static.dir/depend.internal".
+Dependee "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src/CMakeFiles/libcmark-gfm_static.dir/depend.internal".
+Scanning dependencies of target libcmark-gfm_static
+make[3]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+make -f src/CMakeFiles/libcmark-gfm_static.dir/build.make src/CMakeFiles/libcmark-gfm_static.dir/build
+make[3]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+[  3%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/cmark.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/cmark.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/cmark.c
+[  7%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/node.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/node.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/node.c
+[ 10%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/iterator.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/iterator.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/iterator.c
+[ 14%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/blocks.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/blocks.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/blocks.c
+[ 17%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/inlines.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/inlines.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/inlines.c
+[ 21%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/scanners.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/scanners.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/scanners.c
+[ 25%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/utf8.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/utf8.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/utf8.c
+[ 28%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/buffer.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/buffer.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/buffer.c
+[ 32%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/references.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/references.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/references.c
+[ 35%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/footnotes.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/footnotes.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/footnotes.c
+[ 39%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/map.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/map.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/map.c
+[ 42%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/render.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/render.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/render.c
+[ 46%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/man.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/man.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/man.c
+[ 50%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/xml.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/xml.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/xml.c
+[ 53%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/html.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/html.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/html.c
+[ 57%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/commonmark.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/commonmark.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/commonmark.c
+[ 60%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/plaintext.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/plaintext.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/plaintext.c
+[ 64%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/latex.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/latex.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/latex.c
+[ 67%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/houdini_href_e.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/houdini_href_e.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/houdini_href_e.c
+[ 71%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/houdini_html_e.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/houdini_html_e.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/houdini_html_e.c
+[ 75%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/houdini_html_u.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/houdini_html_u.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/houdini_html_u.c
+[ 78%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/cmark_ctype.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/cmark_ctype.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/cmark_ctype.c
+[ 82%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/arena.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/arena.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/arena.c
+[ 85%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/linked_list.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/linked_list.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/linked_list.c
+[ 89%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/syntax_extension.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/syntax_extension.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/syntax_extension.c
+[ 92%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/registry.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/registry.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/registry.c
+[ 96%] Building C object src/CMakeFiles/libcmark-gfm_static.dir/plugin.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cc -DLIBDIR=\"/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build\" -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC -fvisibility=hidden   -DCMARK_STATIC_DEFINE -o CMakeFiles/libcmark-gfm_static.dir/plugin.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/plugin.c
+[100%] Linking C static library libcmark-gfm.a
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cmake -P CMakeFiles/libcmark-gfm_static.dir/cmake_clean_target.cmake
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/libcmark-gfm_static.dir/link.txt --verbose=false
+make[3]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+[100%] Built target libcmark-gfm_static
+make[2]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+/usr/bin/cmake -E cmake_progress_start /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles 0
+make[1]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+/usr/bin/cmake -H/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark -B/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build --check-build-system CMakeFiles/Makefile.cmake 0
+make -f CMakeFiles/Makefile2 libcmark-gfmextensions_static
+make[1]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+/usr/bin/cmake -H/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark -B/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles 7
+make -f CMakeFiles/Makefile2 extensions/CMakeFiles/libcmark-gfmextensions_static.dir/all
+make[2]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+make -f extensions/CMakeFiles/libcmark-gfmextensions_static.dir/build.make extensions/CMakeFiles/libcmark-gfmextensions_static.dir/depend
+make[3]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions/CMakeFiles/libcmark-gfmextensions_static.dir/DependInfo.cmake --color=
+Dependee "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions/CMakeFiles/libcmark-gfmextensions_static.dir/DependInfo.cmake" is newer than depender "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions/CMakeFiles/libcmark-gfmextensions_static.dir/depend.internal".
+Dependee "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions/CMakeFiles/libcmark-gfmextensions_static.dir/depend.internal".
+Scanning dependencies of target libcmark-gfmextensions_static
+make[3]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+make -f extensions/CMakeFiles/libcmark-gfmextensions_static.dir/build.make extensions/CMakeFiles/libcmark-gfmextensions_static.dir/build
+make[3]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+[ 14%] Building C object extensions/CMakeFiles/libcmark-gfmextensions_static.dir/core-extensions.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cc  -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC   -DCMARK_STATIC_DEFINE -DCMARKEXTENSIONS_STATIC_DEFINE -o CMakeFiles/libcmark-gfmextensions_static.dir/core-extensions.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/core-extensions.c
+[ 28%] Building C object extensions/CMakeFiles/libcmark-gfmextensions_static.dir/table.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cc  -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC   -DCMARK_STATIC_DEFINE -DCMARKEXTENSIONS_STATIC_DEFINE -o CMakeFiles/libcmark-gfmextensions_static.dir/table.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/table.c
+[ 42%] Building C object extensions/CMakeFiles/libcmark-gfmextensions_static.dir/strikethrough.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cc  -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC   -DCMARK_STATIC_DEFINE -DCMARKEXTENSIONS_STATIC_DEFINE -o CMakeFiles/libcmark-gfmextensions_static.dir/strikethrough.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/strikethrough.c
+[ 57%] Building C object extensions/CMakeFiles/libcmark-gfmextensions_static.dir/autolink.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cc  -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC   -DCMARK_STATIC_DEFINE -DCMARKEXTENSIONS_STATIC_DEFINE -o CMakeFiles/libcmark-gfmextensions_static.dir/autolink.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/autolink.c
+[ 71%] Building C object extensions/CMakeFiles/libcmark-gfmextensions_static.dir/tagfilter.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cc  -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC   -DCMARK_STATIC_DEFINE -DCMARKEXTENSIONS_STATIC_DEFINE -o CMakeFiles/libcmark-gfmextensions_static.dir/tagfilter.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/tagfilter.c
+[ 85%] Building C object extensions/CMakeFiles/libcmark-gfmextensions_static.dir/ext_scanners.c.o
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cc  -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/. -I/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions  -fPIC -Wall -Wextra -Wno-unused-parameter -std=c99 -pedantic -O3 -DNDEBUG -fPIC   -DCMARK_STATIC_DEFINE -DCMARKEXTENSIONS_STATIC_DEFINE -o CMakeFiles/libcmark-gfmextensions_static.dir/ext_scanners.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/extensions/ext_scanners.c
+[100%] Linking C static library libcmark-gfmextensions.a
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cmake -P CMakeFiles/libcmark-gfmextensions_static.dir/cmake_clean_target.cmake
+cd /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/extensions && /usr/bin/cmake -E cmake_link_script CMakeFiles/libcmark-gfmextensions_static.dir/link.txt --verbose=false
+make[3]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+[100%] Built target libcmark-gfmextensions_static
+make[2]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+/usr/bin/cmake -E cmake_progress_start /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles 0
+make[1]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build'
+checking for cmark_parse_document() in -lcmark-gfm... yes
+checking for core_extensions_ensure_registered() in -lcmark-gfmextensions... yes
+creating Makefile
+
+current directory: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker
+make "DESTDIR=" clean
+
+current directory: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker
+make "DESTDIR="
+compiling commonmarker.c
+In file included from /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/src/houdini.h:9:0,
+                 from commonmarker.c:3:
+/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/src/config.h:8:0: warning: "HAVE_STDBOOL_H" redefined
+ #define HAVE_STDBOOL_H
+ 
+In file included from /usr/local/include/ruby-2.4.0/ruby/ruby.h:24:0,
+                 from /usr/local/include/ruby-2.4.0/ruby.h:33,
+                 from commonmarker.h:9,
+                 from commonmarker.c:1:
+/usr/local/include/ruby-2.4.0/x86_64-linux-musl/ruby/config.h:28:0: note: this is the location of the previous definition
+ #define HAVE_STDBOOL_H 1
+ 
+commonmarker.c: In function 'prepare_parser':
+commonmarker.c:123:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   cmark_parser *parser = cmark_parser_new_with_mem(options, mem);
+   ^~~~~~~~~~~~
+commonmarker.c:133:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     cmark_syntax_extension *syntax_extension =
+     ^~~~~~~~~~~~~~~~~~~~~~
+commonmarker.c: In function 'rb_markdown_to_html':
+commonmarker.c:172:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   cmark_mem *default_mem = cmark_get_default_mem_allocator();
+   ^~~~~~~~~
+commonmarker.c:176:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   VALUE ruby_html = rb_str_new2(html);
+   ^~~~~
+commonmarker.c: In function 'rb_parse_document':
+commonmarker.c:270:12: warning: variable 'options' set but not used [-Wunused-but-set-variable]
+   int len, options;
+            ^~~~~~~
+commonmarker.c: In function 'rb_render_html':
+commonmarker.c:550:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+     cmark_syntax_extension *syntax_extension =
+     ^~~~~~~~~~~~~~~~~~~~~~
+commonmarker.c:561:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char *html = cmark_render_html(node, options, extensions);
+   ^~~~
+commonmarker.c: In function 'rb_render_commonmark':
+commonmarker.c:582:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char *cmark = cmark_render_commonmark(node, options, 120);
+   ^~~~
+commonmarker.c: In function 'rb_render_plaintext':
+commonmarker.c:601:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char *text = cmark_render_plaintext(node, options, 120);
+   ^~~~
+commonmarker.c: In function 'rb_html_escape_href':
+commonmarker.c:1055:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   cmark_mem *mem = cmark_node_mem(node);
+   ^~~~~~~~~
+commonmarker.c: In function 'rb_html_escape_html':
+commonmarker.c:1075:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   cmark_mem *mem = cmark_node_mem(node);
+   ^~~~~~~~~
+commonmarker.c: At top level:
+cc1: warning: unrecognized command line option '-Wno-self-assign'
+cc1: warning: unrecognized command line option '-Wno-constant-logical-operand'
+cc1: warning: unrecognized command line option '-Wno-parentheses-equality'
+linking shared-object commonmarker/commonmarker.so
+
+current directory: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20171129-25-aj3qn5/commonmarker

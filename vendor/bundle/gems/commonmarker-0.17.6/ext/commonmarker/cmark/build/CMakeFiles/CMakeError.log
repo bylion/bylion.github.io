@@ -1,0 +1,36 @@
+Performing C SOURCE FILE Test HAVE_FLAG_ADDRESS_SANITIZER failed with the following output:
+Change Dir: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea873/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea873.dir/build.make CMakeFiles/cmTC_ea873.dir/build
+make[1]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea873.dir/src.c.o
+/usr/bin/cc   -fPIC -DHAVE_FLAG_ADDRESS_SANITIZER -Werror -faddress-sanitizer   -faddress-sanitizer -o CMakeFiles/cmTC_ea873.dir/src.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-faddress-sanitizer'
+cc: error: unrecognized command line option '-faddress-sanitizer'
+make[1]: *** [CMakeFiles/cmTC_ea873.dir/build.make:66: CMakeFiles/cmTC_ea873.dir/src.c.o] Error 1
+make[1]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:126: cmTC_ea873/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FLAG_SANITIZE_ADDRESS failed with the following output:
+Change Dir: /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfc7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfc7d.dir/build.make CMakeFiles/cmTC_cfc7d.dir/build
+make[1]: Entering directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfc7d.dir/src.c.o
+/usr/bin/cc   -fPIC -DHAVE_FLAG_SANITIZE_ADDRESS -Werror -fsanitize=address   -fsanitize=address -o CMakeFiles/cmTC_cfc7d.dir/src.c.o   -c /usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cfc7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfc7d.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DHAVE_FLAG_SANITIZE_ADDRESS -Werror -fsanitize=address    -rdynamic CMakeFiles/cmTC_cfc7d.dir/src.c.o  -o cmTC_cfc7d 
+/usr/lib/gcc/x86_64-alpine-linux-musl/6.3.0/../../../../x86_64-alpine-linux-musl/bin/ld: cannot find libasan_preinit.o: No such file or directory
+/usr/lib/gcc/x86_64-alpine-linux-musl/6.3.0/../../../../x86_64-alpine-linux-musl/bin/ld: cannot find -lasan
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_cfc7d.dir/build.make:98: cmTC_cfc7d] Error 1
+make[1]: Leaving directory '/usr/local/bundle/gems/commonmarker-0.17.6/ext/commonmarker/cmark/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:126: cmTC_cfc7d/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
