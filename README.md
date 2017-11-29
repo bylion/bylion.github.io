@@ -12,9 +12,9 @@
 
  - browse the site by 0.0.0.0:4000
 
+ - bundle update github-pages (gem update github-pages)
+
 
 ### To edit online
 
- - I found a fantasy online tool! [prose](http://prose.io/)  easy to use, and prefect for simple edition. 
- 
-
+ - I found a fantasy online tool! [prose](http://prose.io/)  easy to use, and prefect for simple edition.
