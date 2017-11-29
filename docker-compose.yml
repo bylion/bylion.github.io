@@ -6,6 +6,8 @@ services:
     volumes:
       - $PWD:/srv/jekyll
       - $PWD/vendor/bundle:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=production
     ports:
       - 4000:4000
       - 35729:35729

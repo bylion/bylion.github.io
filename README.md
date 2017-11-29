@@ -2,11 +2,11 @@
 ## [This](https://bylion.github.io) is my blog for hosting tech related blog
 
 
-### To run it locally 
+### To run it locally
 
  - git clone the repo, and cd to the directoty
 
- - docker-compose up --build
+ - docker-compose rm -f ; docker-compose pull； docker-compose up --build
 
  - docker-compose run site bundle update
 
