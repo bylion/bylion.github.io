@@ -24,3 +24,6 @@
 
 ### social
  - https://disqus.com/admin/
+
+### google web master
+ - https://www.google.com/webmasters/
