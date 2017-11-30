@@ -23,4 +23,9 @@ published: false
  
  
  
+### price now
+ - http://coincap.io/
+ 
+ 
+ 
  
