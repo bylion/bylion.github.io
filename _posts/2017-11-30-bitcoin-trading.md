@@ -6,6 +6,7 @@ published: true
 ### Coinbase
  - good for starters. Easy to use high fee(1-5%)
  - USA based, reported earning to IRS
+ - apply, [click here 申请通道](https://www.coinbase.com/join/5a20017f6a660b01a7df57cb)
  
 
 ### GDAX
