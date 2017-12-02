@@ -2,7 +2,7 @@
 layout: post
 title: Bloom Filter
 date: '2017-11-27 23:57:19 -0600'
-categories: null
+categories: algorithm
 published: true
 ---
 

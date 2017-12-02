@@ -2,7 +2,7 @@
 layout: post
 title: How to present architecture refactoring
 date: '2017-11-28 23:57:19 -0600'
-categories: null
+categories: architect
 published: true
 ---
 ## How to present architecture refactoring

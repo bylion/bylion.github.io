@@ -2,7 +2,7 @@
 layout: post
 title:  "First Post, Hello world~"
 date:   2017-11-24 23:57:19 -0600
-categories:
+categories: plan
 ---
 
 {% highlight ruby %}
