@@ -27,3 +27,7 @@ published: true
 ### price now
  - http://coincap.io/
  - https://bitcoincharts.com/markets/
+
+
+
+	<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1225_RC05/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"ethereum","geo":"","time":"now 7-d"},{"keyword":"bitcoin","geo":"","time":"now 7-d"},{"keyword":"litecoin","geo":"","time":"now 7-d"}],"category":0,"property":""}, {"exploreQuery":"date=now 7-d,now 7-d,now 7-d&q=ethereum,bitcoin,litecoin","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
