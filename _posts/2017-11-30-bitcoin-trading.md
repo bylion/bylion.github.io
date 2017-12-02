@@ -30,11 +30,14 @@ published: true
 
 
 
-### Google Trend(Live)
+### Google Trend
+ - live data
 
 
 
-	<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1225_RC05/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"ethereum","geo":"","time":"now 14-d"},{"keyword":"bitcoin","geo":"","time":"now 14-d"},{"keyword":"litecoin","geo":"","time":"now 14-d"}],"category":0,"property":""}, {"exploreQuery":"date=now 14-d,now 14-d,now 14-d&q=ethereum,bitcoin,litecoin","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+
+
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1225_RC05/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"ethereum","geo":"","time":"now 14-d"},{"keyword":"bitcoin","geo":"","time":"now 14-d"},{"keyword":"litecoin","geo":"","time":"now 14-d"}],"category":0,"property":""}, {"exploreQuery":"date=now 14-d,now 14-d,now 14-d&q=ethereum,bitcoin,litecoin","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
     
     
 
