@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Bitcoin Trading
 
@@ -26,7 +26,3 @@ published: false
 ### price now
  - http://coincap.io/
  - https://bitcoincharts.com/markets/
- 
- 
- 
- 
