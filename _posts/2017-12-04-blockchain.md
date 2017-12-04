@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+date: '2017-12-04 01:57:19 -0600'
+categories: blockchain
 ---
 ## Blockchain-technique behind bitcoin
 
