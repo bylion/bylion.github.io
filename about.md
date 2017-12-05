@@ -10,6 +10,9 @@ Living an Inspired Life
 
 Found me on [LinkedIn](www.linkedin.com/in/byzhu)
 
+一只沉迷于硅谷的小羔羊
+
+
 
 Please please free free to contact me if you need help to setup the github page! I WOULD LOVE TO HELP!
 
