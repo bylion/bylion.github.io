@@ -14,7 +14,7 @@ Found me on [LinkedIn](www.linkedin.com/in/byzhu)
 
 
 
-Please please free free to contact me if you need help to setup the github page! I WOULD LOVE TO HELP!
+Please please feel free to reach out if you need help to setup the github page! I WOULD LOVE TO HELP!
 
 ###TBD
  - wechat
