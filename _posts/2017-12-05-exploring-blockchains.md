@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+layout: post
+date: '2017-12-05 02:57:19 -0600'
+categories: blockchain
 ---
 ## Exploring Bitcoin and Ethereum Blockchains
 
@@ -10,5 +13,3 @@ published: false
 ### https://etherscan.io/
 
 ### https://etherchain.org/
-
-
