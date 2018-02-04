@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 date: '2018-02-04 01:57:19 -0600'
 categories: life
@@ -17,8 +17,8 @@ anyway
  - medical care
  - 401K
  - othere tax
- 
- 
+
+
 我这里主要想讲的不是tax而是其他的那些
 
 ### social security
